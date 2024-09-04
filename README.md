@@ -1,33 +1,33 @@
-# Stok ve Envanter Yönetim Sistemi
+# Stok ve Envanter YÃ¶netim Sistemi
 
-Bu proje, stok ve envanter yönetimi için geliştirilmiş bir SQL veritabanı uygulamasıdır. Proje kapsamında oluşturulan veritabanı tabloları, ilişkiler, stored procedure'ler ve trigger'lar ile sistemin çalışma mantığı açıklanmıştır.
+Bu proje, stok ve envanter yÃ¶netimi iÃ§in geliÅŸtirilmiÅŸ bir SQL veritabanÄ± uygulamasÄ±dÄ±r. Proje kapsamÄ±nda oluÅŸturulan veritabanÄ± tablolarÄ±, iliÅŸkiler, stored procedure'ler ve trigger'lar ile sistemin Ã§alÄ±ÅŸma mantÄ±ÄŸÄ± aÃ§Ä±klanmÄ±ÅŸtÄ±r.
 
-## Proje İçeriği
+## Proje Ä°Ã§eriÄŸi
 
 - **Tablolar:**
-  - Ürünler (Products)
-  - Tedarikçiler (Suppliers)
-  - Siparişler (Orders)
-  - Müşteriler (Customers)
+  - ÃœrÃ¼nler (Products)
+  - TedarikÃ§iler (Suppliers)
+  - SipariÅŸler (Orders)
+  - MÃ¼ÅŸteriler (Customers)
   
-- **Stored Procedure’ler:**
-  - Stok Güncelleme (UpdateStockOnOrder)
-  - Düşük Stok Kontrolü (CheckLowStock)
+- **Stored Procedureâ€™ler:**
+  - Stok GÃ¼ncelleme (UpdateStockOnOrder)
+  - DÃ¼ÅŸÃ¼k Stok KontrolÃ¼ (CheckLowStock)
   
-- **Trigger’lar:**
-  - Sipariş Üzerine Stok Güncelleme
+- **Triggerâ€™lar:**
+  - SipariÅŸ Ãœzerine Stok GÃ¼ncelleme
 
-## Kurulum Adımları
+## Kurulum AdÄ±mlarÄ±
 
-1. **SQL Server Yükleyin**: Projeyi çalıştırmak için SQL Server gerekmektedir.
-2. **Veritabanını Yükleyin**: `Proje_Script.sql` dosyasını kullanarak veritabanını oluşturun.
-3. **Stored Procedure ve Trigger’ları Ekleyin**: SQL scriptlerini çalıştırarak ilgili prosedür ve trigger’ları oluşturun.
+1. **SQL Server YÃ¼kleyin**: Projeyi Ã§alÄ±ÅŸtÄ±rmak iÃ§in SQL Server gerekmektedir.
+2. **VeritabanÄ±nÄ± YÃ¼kleyin**: `Proje_Script.sql` dosyasÄ±nÄ± kullanarak veritabanÄ±nÄ± oluÅŸturun.
+3. **Stored Procedure ve Triggerâ€™larÄ± Ekleyin**: SQL scriptlerini Ã§alÄ±ÅŸtÄ±rarak ilgili prosedÃ¼r ve triggerâ€™larÄ± oluÅŸturun.
 
-## Kullanım
+## KullanÄ±m
 
-- Sistemde sipariş verildiğinde otomatik olarak stok miktarı güncellenir.
-- Stok azaldığında uyarı verir ve düşük stok raporu oluşturur.
+- Sistemde sipariÅŸ verildiÄŸinde otomatik olarak stok miktarÄ± gÃ¼ncellenir.
+- Stok azaldÄ±ÄŸÄ±nda uyarÄ± verir ve dÃ¼ÅŸÃ¼k stok raporu oluÅŸturur.
 
 ## Lisans
 
-Bu proje MIT lisansı altındadır.
+Bu proje MIT lisansÄ± altÄ±ndadÄ±r.
